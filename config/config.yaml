@@ -1,0 +1,101 @@
+# config/config.yaml
+
+browser:
+  default: "chrome"
+  headless: false
+  implicit_wait: 10
+  page_load_timeout: 30
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(filename)s:[%(lineno)d] - [%(levelname)s] - %(message)s"
+  directory: "reports/logs"
+
+# Environment-specific settings for your application
+environments:
+  # The sample automation practice site
+  demo:
+    base_url: "https://www.saucedemo.com/"
+    username: "standard_user"
+    password: "secret_sauce"
+
+  # Your actual development environment
+  dev:
+    base_url: "https://dev.example.com"
+    username: "dev_user"
+    password: "dev_pass"
+  
+  # Your actual staging environment
+  staging:
+    base_url: "https://staging.example.com"
+    username: "staging_user"
+    password: "staging_pass"
+  
+  # Your actual production environment
+  prod:
+    base_url: "https://example.com"
+    username: "prod_user"
+    password: "prod_pass"
+
+  atoz:
+    base_url: "https://atozautopartsindia.com/"
+
+
+# utsavfashion
+  register:
+    base_url : "https://www.utsavfashion.com/"
+    first_name : "Guruswamy"
+    last_name : "Vempati"
+    email : "vempatiguruswamy9121@gmailcom"
+    password : "Guru@12345"
+  login:
+    base_url: "https://www.utsavfashion.com/"
+    username: "vempatiguruswamy9121@gmail.com"
+    password: "Guru@12345"
+
+
+  thesignatureperfume:
+    base_url: "https://thesignatureluxury.com"
+    username: 'praveen.mahabalshetti@gmail.com'
+    password: 'praveen123'
+
+  olive:
+    base_url: "https://www.oliveboard.in/"
+    username: "manojkirankm@gmail.com"
+    password: "MkkM8118$"
+
+  dfh:
+    base_url: "https://dryfruithouse.com/"
+    username: "manojkirankm@gmail.com"
+    password: "mkkm1996$"
+
+  Bighath:
+    base_url: "https://www.bighaat.com/"
+  books_wagon:
+    base_url: "https://www.bookswagon.com/"
+    username: "poojamathpati2001@gmail.com"
+    password: "pooja22"
+
+  D2C:
+     base_url: "https://d2csale.com/"
+     username: "gajulayasmeen02@gmail.com"
+     password: "aman@786"
+
+  flipkart:
+    base_url: "https://www.flipkart.com/"
+    username: "9047843173"
+  bookscape:
+    base_url: "https://bookscape.com/"
+
+  platinumrx:
+    base_url: "https://www.platinumrx.in/"
+
+
+
+  pepperfry:
+    base_url: "https://www.pepperfry.com/"
+
+  jarBazaar:
+    base_url: "https://jarbazaar.com"
+    username: "vstar4709@gmail.com"
+    password: "jarbazaar@123"
